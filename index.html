@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solsystemet</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./src/script.js" defer type="module"></script>
+    <script src="./src/script2.js" defer type="module"></script>
+    <script src="./src/starAnimaton.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sky">
+      <section class="headlines">
+        <h1 id="title">SOLSYSTEMET</h1>
+        <h2 id="subtitle">SOLARIS</h2>
+      </section>
+
+      <section class="solar-system">
+        <div id="the-sun"></div>
+        <section class="planets">
+          <div id="mercury"></div>
+          <div id="venus"></div>
+          <div id="earth"></div>
+          <div id="mars"></div>
+          <div id="jupiter"></div>
+          <div id="saturn">
+            <div id="saturn-ring"></div>
+          </div>
+          <div id="uranus"></div>
+          <div id="neptune"></div>
+        </section>
+      </section>
+
+      <section class="popup">
+        <div id="sidepanel-planet"></div>
+
+        <section class="infobox">
+          <h1 id="planet-name">Planet name</h1>
+          <h2 id="latin-name">Latin name</h2>
+          <p id="description">Description</p>
+          <div class="line"></div>
+          <section class="infobox-2">
+            <div id="circumference-and-distance-container">
+              <div id="circumference-container">
+                <h3>OMKRETS</h3>
+                <p id="circumference">...</p>
+              </div>
+              <div class="distance-container">
+                <h3>KM FRÅN SOLEN</h3>
+                <p id="distance">...</p>
+              </div>
+            </div>
+
+            <div id="maxmintemp-container">
+              <div class="max-temp-container">
+                <h3>MAX TEMPERATUR</h3>
+                <p id="max-temp">...</p>
+              </div>
+              <div class="min-temp-container">
+                <h3>MIN TEMPERATUR</h3>
+                <p id="min-temp">...</p>
+              </div>
+            </div>
+            <div class="line"></div>
+
+            <div id="moon-container">
+              <h3>Månar</h3>
+              <p id="moons">...</p>
+            </div>
+          </section>
+        </section>
+      </section>
+
+      <div class="stars"></div>
+      <div class="comet"></div>
+      <div class="moving-stars"></div>
+    </section>
+  </body>
+</html>
